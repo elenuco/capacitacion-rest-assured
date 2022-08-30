@@ -26,7 +26,7 @@ public class EjemploLogAllTest {
         String response =
                 RestAssured
                         .given()
-                        .queryParam("postId", "2")
+                        .queryParam("id", "6")
                         .when()
                         .get("https://jsonplaceholder.typicode.com/comments")
                         .then()
